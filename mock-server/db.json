@@ -1,0 +1,116 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "password": "admin",
+      "email": "admin@admin.com",
+      "isActive": true,
+      "isAdmin": true,
+      "createdAt": "2024-04-01",
+      "updatedAt": "2024-04-01"
+    },
+    {
+      "id": 2,
+      "username": "admin2",
+      "password": "admin2",
+      "email": "admin2@admin.com",
+      "isActive": true,
+      "isAdmin": true,
+      "createdAt": "2024-04-01",
+      "updatedAt": "2024-04-01"
+    },
+    {
+      "id": 3,
+      "username": "admin3",
+      "password": "admin3",
+      "email": "admin3@admin.com",
+      "isActive": true,
+      "isAdmin": true,
+      "createdAt": "2024-04-01",
+      "updatedAt": "2024-04-01"
+    }
+  ],
+  "room": [
+    {
+      "id": 1,
+      "roomnumber": 1,
+      "image": "https://imageio.forbes.com/specials-images/imageserve/5cdb058a5218470008b0b00f/Nobu-Ryokan-Malibu/0x0.jpg?format=jpg&height=1009&width=2000",
+      "bedtype": 1,
+      "price": 1000,
+      "createdAt": "2024-04-01",
+      "updatedAt": "2024-04-01"
+    },
+    {
+      "id": 2,
+      "roomnumber": 2,
+      "image": "https://www.cvent.com/sites/default/files/image/2021-10/hotel%20room%20with%20beachfront%20view.jpg",
+      "bedtype": 1,
+      "price": 1000,
+      "createdAt": "2024-04-01",
+      "updatedAt": "2024-04-01"
+    },
+    {
+      "roomnumber": "3",
+      "bedtype": "2",
+      "price": "500",
+      "image": "https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.jpg?s=612x612&w=0&k=20&c=YBwxnGH3MkOLLpBKCvWAD8F__T-ypznRUJ_N13Zb1cU=",
+      "id": 3
+    },
+    {
+      "roomnumber": "345",
+      "bedtype": "345",
+      "price": "345",
+      "image": "345",
+      "id": 4
+    },
+    {
+      "roomnumber": "5",
+      "bedtype": "3",
+      "price": "500",
+      "image": "erwer",
+      "id": 5
+    }
+  ],
+  "resarvation": [
+    {
+      "id": 1,
+      "userId": 1,
+      "roomId": 1,
+      "arrival_date": "2024-04-01",
+      "departure_date": "2024-04-01",
+      "guest_number": 1,
+      "night": 1,
+      "price": 500,
+      "totalprice": 500,
+      "createdAt": "2024-04-01",
+      "updatedAt": "2024-04-01"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "roomId": 2,
+      "arrival_date": "2024-04-01",
+      "departure_date": "2024-04-01",
+      "guest_number": 1,
+      "night": 1,
+      "price": 500,
+      "totalprice": 500,
+      "createdAt": "2024-04-01",
+      "updatedAt": "2024-04-01"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "roomId": 3,
+      "arrival_date": "2024-04-01",
+      "departure_date": "2024-04-01",
+      "guest_number": 1,
+      "night": 1,
+      "price": 500,
+      "totalprice": 500,
+      "createdAt": "2024-04-01",
+      "updatedAt": "2024-04-01"
+    }
+  ]
+}
